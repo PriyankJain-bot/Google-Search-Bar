@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Search</title>
+        <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    </head>
+    <body>
+<div class="hero">
+    <div id="searchBox">
+        <img src="google.png" id="googleIcon">
+        <input type="text" placeholder="Search google or type a URL">
+        <img src="mic.png"class="mic-icon">
+    </div>
+</div>
+
+<script>
+
+var googleIcon = document.getElementById('googleIcon');
+var searchBox = document.getElementById('searchBox')
+
+googleIcon.onclick = function(){
+    searchBox.classList.toggle('active');
+}
+
+
+</script>
+ </body>
+</html>
